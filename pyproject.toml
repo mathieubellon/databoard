@@ -15,6 +15,9 @@ elasticsearch = "^8.5.0"
 python-dotenv = "^0.21.0"
 
 
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.17.1"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.src"
